@@ -24,9 +24,9 @@ function AnswersTable() {
         }
     }, []);
 
-    const handleNewTest = () => {
+    /* const handleNewTest = () => {
         localStorage.clear()
-    }
+    } */
 
     return (
         <div className="w-full h-screen px-4 sm:px-8">
@@ -46,13 +46,13 @@ function AnswersTable() {
                         </tr>
                     ))}
                 </tbody>
-            </table>
+            </table>{/* 
             <button
                 onClick={handleNewTest}
                 className="bg-blue-500 text-white font-semibold py-2 px-4 rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-300"
             >
                 Start New Test
-            </button>
+            </button> */}
         </div>
     );
 }
